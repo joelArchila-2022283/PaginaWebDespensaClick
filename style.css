@@ -134,7 +134,7 @@ body { background-color: #d6d6d6; }
 
 .table-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
 
-/* --- BOTÓN NUEVO (UIVERSE) --- */
+/* --- BOTÓN NUEVO --- */
 .button {
   position: relative; width: 130px; height: 40px; cursor: pointer;
   display: flex; align-items: center; border: 1px solid #34974d;
@@ -165,7 +165,7 @@ body { background-color: #d6d6d6; }
 .edit-btn:hover .svg-edit { right: 43%; }
 .edit-btn:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0px rgb(140, 32, 212); }
 
-/* --- BOTÓN ELIMINAR (UIVERSE STYLE) --- */
+/* --- BOTÓN ELIMINAR  --- */
 .delete-btn {
   width: 110px; height: 40px; cursor: pointer; display: flex; align-items: center;
   background: #e74c3c; border: none; border-radius: 5px; position: relative; overflow: hidden;
@@ -184,5 +184,21 @@ body { background-color: #d6d6d6; }
 table { width: 100%; border-collapse: collapse; }
 th { background: #f8f9fa; color: #27ae60; text-transform: uppercase; font-size: 0.8rem; padding: 15px; text-align: left; border-bottom: 2px solid #27ae60; }
 td { padding: 15px; border-bottom: 1px solid #eee; }
+
+/* Ajustes para la sección de Ventas */
+#ventas .table-container {
+    border-top: 4px solid #f1c40f; 
+}
+
+#ventas th {
+    color: #f39c12;
+    border-bottom: 2px solid #f39c12;
+}
+
+
+#ventas .edit-btn {
+    background-color: #3498db;
+    box-shadow: 5px 5px 0px #2980b9;
+}
 
 footer { background: #dbdbdb; color: rgb(0, 0, 0); text-align: center; padding: 20px; margin-top: 30px; border-radius: 8px; }
